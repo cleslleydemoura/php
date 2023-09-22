@@ -1,0 +1,13 @@
+*** COMANDOS PARA CRIAR BANCO DE DADOS NO http://localhost/phpmyadmin/ ***
+
+CREATE DATABASE imaginaria;
+
+CREATE TABLE clientes (
+  cliID INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  cliNome VARCHAR(100) NULL,
+  cliEmail VARCHAR(100) NULL,
+  cliCPF VARCHAR(14) NULL,
+  cliDataNascimento DATE NULL,
+  PRIMARY KEY(cliId)
+);
+
