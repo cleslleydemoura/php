@@ -1,4 +1,0 @@
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="js/configMenus.js"></script>
-</body>
-</html>
